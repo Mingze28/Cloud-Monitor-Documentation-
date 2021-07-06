@@ -31,6 +31,16 @@ to make your own monitor workbook
 
 2. Add additional filters 
 The filters can help you focus on specific area you are interested in. 
+  - Add parameters for your workbook
+  ![image](https://user-images.githubusercontent.com/54704393/124579000-51d51a80-de81-11eb-97ad-e2572a961e38.png)
+
+  - Add a new subscription selection field to help you filter out unneeded subscription 
+  ![image](https://user-images.githubusercontent.com/54704393/124579227-8052f580-de81-11eb-9311-1e57f1dfae99.png)
+  
+  - Change your workbook query settings to your own parameters
+  ![image](https://user-images.githubusercontent.com/54704393/124579938-31f22680-de82-11eb-8135-d96698cb15e5.png)
+ 
+
 
 
 
