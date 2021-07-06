@@ -7,15 +7,16 @@ This Github repository is to demonstrate how to create your own monitor workbook
 Here are some of the prerequisites that you need to check before you start
 
 ### 1. Install the monitor agent extension for your Virtual Machines
+
 #### You can install the agent manually through Azure portal
 For Windows Machine:
-
 ![image](https://user-images.githubusercontent.com/54704393/124568898-01a58a80-de78-11eb-8707-6edbedb28b3a.png)
 
-For Linux Machine:
+#### You can also install the agent through terraform
+![image](https://user-images.githubusercontent.com/54704393/124569312-6b259900-de78-11eb-9ab3-177587abb519.png)
 
-![image](https://user-images.githubusercontent.com/54704393/124569089-34e81980-de78-11eb-96d4-c31ff56699d4.png)
-
+#### Finally enable Azure monitor for VMs
+![image](https://user-images.githubusercontent.com/54704393/124569677-bb046000-de78-11eb-8fef-a29bf7cb8930.png)
 
 ## Describe your project
 
