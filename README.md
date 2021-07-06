@@ -3,7 +3,7 @@
 This Github repository is to demonstrate how to create your own monitor workbook by using azure workbook templates.
 
 ### Contents 
-[Prequisites] (#prerequisites)
+![Prequisites] (#prerequisites)
 
 ### Prerequisites
 
