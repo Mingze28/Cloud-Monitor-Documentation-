@@ -1,8 +1,8 @@
 # Azure Workbook Usage Guide 
 
-This Github repository is to demonstrate how to use azure workbook template to create your own monitor workbook.
+This Github repository is to demonstrate how to create your own monitor workbook by using azure workbook templates.
 
-## Repositories
+## Prerequisites
 
 Right now, we’re in your first GitHub **repository**. A repository is like a folder or storage space for your project. Your project's repository contains all its files such as code, documentation, images, and more. It also tracks every change that you—or your collaborators—make to each file, so you can always go back to previous versions of your project if you make any mistakes.
 
