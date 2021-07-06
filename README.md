@@ -3,9 +3,9 @@
 This Azure Cloud Monitor Documentation serves as a guide to create your own workbooks and dashbords to monitor your Azure resources. Some of this templates are adapted from [Panaroma](https://github.com/weixian-zhang/Panorama), [The Ultimate Inventory Dashboard](https://github.com/scautomation/Azure-Inventory-Workbook) and [Azure Public Templates](https://portal.azure.com/#blade/Microsoft_Azure_Monitoring/AzureMonitoringBrowseBlade/workbooks)
 
 ## Contents 
-[Prequisites](#prerequisites)
-[Workbooks]
-[DashBoards]
+1. [Prequisites](#prerequisites)
+2. [Workbooks]
+3. [DashBoards]
 
 
 ## Prerequisites
@@ -15,7 +15,7 @@ Here are some of the prerequisites that you need to check before you start
 ### 1. Install the monitor agent extension for your Virtual Machines
 
 #### Install the agent manually through Azure portal
-<img src="https://user-images.githubusercontent.com/54704393/124568898-01a58a80-de78-11eb-8707-6edbedb28b3a.png" width="100">
+<img src="https://user-images.githubusercontent.com/54704393/124568898-01a58a80-de78-11eb-8707-6edbedb28b3a.png" width="500">
 
 #### Install the agent through terraform
 ![image](https://user-images.githubusercontent.com/54704393/124569312-6b259900-de78-11eb-9ab3-177587abb519.png)
