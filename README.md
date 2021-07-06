@@ -9,7 +9,6 @@ Here are some of the prerequisites that you need to check before you start
 ### 1. Install the monitor agent extension for your Virtual Machines
 
 #### You can install the agent manually through Azure portal
-For Windows Machine:
 ![image](https://user-images.githubusercontent.com/54704393/124568898-01a58a80-de78-11eb-8707-6edbedb28b3a.png)
 
 #### You can also install the agent through terraform
@@ -17,6 +16,9 @@ For Windows Machine:
 
 #### Finally enable Azure monitor for VMs
 ![image](https://user-images.githubusercontent.com/54704393/124569677-bb046000-de78-11eb-8fef-a29bf7cb8930.png)
+
+#### Make sure your VMs are sending heartbeat to Azure log
+![image](https://user-images.githubusercontent.com/54704393/124570134-2cdca980-de79-11eb-8f78-446637880881.png)
 
 ## Describe your project
 
