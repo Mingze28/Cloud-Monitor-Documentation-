@@ -25,9 +25,12 @@ Here are some of the prerequisites that you need to check before you start
 You will need to change the template's subscription to your own one. Next, we will show you how you can copy the template 
 to make your own monitor workbook
 
-## Copy workbook through Gallery Template methods (JSON file)
-1. Copy the workbook file your want to use. You can find some workbook templates through this link. https://github.com/weixian-zhang/Panorama/tree/master/Workbooks
+## Creat workbook through Gallery Template
+1. Copy the workbook file and paste it to Azure workbook. Make sure your file is in json format. You can find some workbook templates through this link: https://github.com/weixian-zhang/Panorama/tree/master/Workbooks
 ![image](https://user-images.githubusercontent.com/54704393/124572186-091a6300-de7b-11eb-9878-c3226b33b0cf.png)
+
+2. Add additional filters 
+The filters can help you focus on specific area you are interested in. 
 
 
 
