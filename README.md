@@ -22,10 +22,11 @@ Here are some of the prerequisites that you need to check before you start
 
 ### 2. You need to change the workbook template's subscription id to your own.
 ![image](https://user-images.githubusercontent.com/54704393/124571175-23a00c80-de7a-11eb-880b-e1913187c699.png)
-
-
+You will need to change the template's subscription to your own one. Next, we will show you how you can copy the template 
+to make your own monitor workbook
 
 ## Copy workbook through Gallery Template methods (JSON file)
+1. Copy the workbook file your want to use. You can find some workbook templates through this link. https://github.com/weixian-zhang/Panorama/tree/master/Workbooks
 ![image](https://user-images.githubusercontent.com/54704393/124572186-091a6300-de7b-11eb-9878-c3226b33b0cf.png)
 
 
