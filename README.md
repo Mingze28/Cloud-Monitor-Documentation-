@@ -4,9 +4,9 @@ This Azure Cloud Monitor Documentation serves as a guide to create your own work
 
 ## Contents 
 1. [Set up an agent for your VM](#set-up-an-agent-for-your-vm)
-2. [Enable monitoring for your VM](Enable-monitoring-for-your-VM)
-3. [Create Workbooks](Create-Workbooks)
-4. [Creating DashBoards](Creating-DashBoards)
+2. [Enable monitoring for your VM](#enable-monitoring-for-your-VM)
+3. [Create Workbooks](#create-workbooks)
+4. [Create DashBoards](#Create-dashBoards)
 
 
 ## Set up an agent for your VM
