@@ -51,7 +51,9 @@ The filters can help you focus on specific area you are interested in.
  
 ## Create dashboards
 
+- Download the dashboard in json format
 
+<img src="https://user-images.githubusercontent.com/54704393/124738754-d5f3d480-df4b-11eb-837a-561c7db73811.png" >
 
 
 
