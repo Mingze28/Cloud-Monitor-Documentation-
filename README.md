@@ -15,10 +15,9 @@ Here are some of the prerequisites that you need to check before you start
 ### 1. Install the monitor agent extension for your Virtual Machines
 
 #### Install the agent manually through Azure portal
-<img src="https://user-images.githubusercontent.com/54704393/124568898-01a58a80-de78-11eb-8707-6edbedb28b3a.png" width="700">
+<img src="https://user-images.githubusercontent.com/58519490/124719077-565d0a00-df39-11eb-8882-be2520a01022.png" width="700">
 
 #### Install the agent through terraform
-<img src="https://user-images.githubusercontent.com/58519490/124719077-565d0a00-df39-11eb-8882-be2520a01022.png">
 
 #### Enable Azure monitor for VMs
 ![image](https://user-images.githubusercontent.com/54704393/124569677-bb046000-de78-11eb-8fef-a29bf7cb8930.png)
