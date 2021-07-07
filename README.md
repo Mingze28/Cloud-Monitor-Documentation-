@@ -11,11 +11,12 @@ This Azure Cloud Monitor Documentation serves as a guide to create your own work
 
 ## Set up the log analytics workspace
 
-Before Azure Monitor can collect logs, ensure that the workspace is connected.
+Before Azure Monitor can collect logs, ensure that the VM is connected to a log analytics workspace (LAW) is connected.
 This can be done in multiple ways, including manually thorugh the Azure portal or through Terraform code.
 
 #### Enable the agent manually through Azure portal
-Navigate to Log Analytics workspace(LAW) and create a worspace or use an existing one. Under workspace data sources, click on virtual machines and connect it to the LAW. 
+Navigate to LAW and create a worspace or use an existing one. Under workspace data sources, click on virtual machines and connect it to the LAW. 
+
 <img src="https://user-images.githubusercontent.com/58519490/124719077-565d0a00-df39-11eb-8882-be2520a01022.png" width="700">
 
 If you have enabled the agent manually in the previous step, skip to the [next step](#enable-monitoring-for-your-VM).
