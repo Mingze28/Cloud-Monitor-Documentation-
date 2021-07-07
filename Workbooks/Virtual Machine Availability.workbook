@@ -1,0 +1,180 @@
+{
+  "version": "Notebook/1.0",
+  "items": [
+    {
+      "type": 9,
+      "content": {
+        "version": "KqlParameterItem/1.0",
+        "parameters": [
+          {
+            "id": "836c8bcc-92af-4af0-90be-e044847a950a",
+            "version": "KqlParameterItem/1.0",
+            "name": "Subscription_check",
+            "type": 6,
+            "isRequired": true,
+            "multiSelect": true,
+            "quote": "'",
+            "delimiter": ",",
+            "value": [
+              "/subscriptions/690b46a6-3499-4e6a-8f5c-8bff2dd422a7"
+            ],
+            "typeSettings": {
+              "additionalResourceOptions": [],
+              "includeAll": true,
+              "showDefault": false
+            },
+            "timeContext": {
+              "durationMs": 86400000
+            },
+            "label": "Subscription"
+          },
+          {
+            "id": "be046354-06ff-4bc1-b7a6-33f9c3b2e955",
+            "version": "KqlParameterItem/1.0",
+            "name": "TimeRange",
+            "type": 4,
+            "typeSettings": {
+              "selectableValues": [
+                {
+                  "durationMs": 300000
+                },
+                {
+                  "durationMs": 900000
+                },
+                {
+                  "durationMs": 1800000
+                },
+                {
+                  "durationMs": 3600000
+                },
+                {
+                  "durationMs": 14400000
+                },
+                {
+                  "durationMs": 43200000
+                },
+                {
+                  "durationMs": 86400000
+                },
+                {
+                  "durationMs": 172800000
+                },
+                {
+                  "durationMs": 259200000
+                },
+                {
+                  "durationMs": 604800000
+                },
+                {
+                  "durationMs": 1209600000
+                },
+                {
+                  "durationMs": 2419200000
+                },
+                {
+                  "durationMs": 2592000000
+                },
+                {
+                  "durationMs": 5184000000
+                },
+                {
+                  "durationMs": 7776000000
+                }
+              ]
+            },
+            "timeContext": {
+              "durationMs": 86400000
+            },
+            "value": {
+              "durationMs": 172800000
+            }
+          }
+        ],
+        "style": "pills",
+        "queryType": 0,
+        "resourceType": "microsoft.operationalinsights/workspaces"
+      },
+      "name": "parameters - 1"
+    },
+    {
+      "type": 3,
+      "content": {
+        "version": "KqlItem/1.0",
+        "query": "\r\nlet start_time=startofday(datetime(\"2021-06-22 09:32:00 AM\"));\r\nlet end_time=now();\r\nHeartbeat\r\n\r\n| where TimeGenerated > start_time and TimeGenerated < end_time\r\n| summarize heartbeat_per_minute=count() by bin_at(TimeGenerated, 1m, start_time), Computer\r\n| extend available_per_minute=iff(heartbeat_per_minute > 0, true, false)\r\n| summarize total_available_minutes=countif(available_per_minute == true) by Computer \r\n| extend total_number_of_buckets=round((end_time - start_time) / 1m)\r\n| extend availability_rate=total_available_minutes / total_number_of_buckets\r\n| extend total_available_hours=round(total_available_minutes / 60)\r\n| order by Computer asc",
+        "size": 0,
+        "timeContext": {
+          "durationMs": 172800000
+        },
+        "timeContextFromParameter": "TimeRange",
+        "queryType": 0,
+        "resourceType": "microsoft.resources/subscriptions",
+        "crossComponentResources": [
+          "{Subscription_check}"
+        ],
+        "visualization": "table",
+        "gridSettings": {
+          "formatters": [
+            {
+              "columnMatch": "total_available_minutes",
+              "formatter": 5
+            },
+            {
+              "columnMatch": "total_number_of_buckets",
+              "formatter": 5
+            },
+            {
+              "columnMatch": "availability_rate",
+              "formatter": 3,
+              "formatOptions": {
+                "min": 0,
+                "max": 1,
+                "palette": "blue"
+              },
+              "numberFormat": {
+                "unit": 0,
+                "options": {
+                  "style": "percent"
+                }
+              }
+            },
+            {
+              "columnMatch": "total_available_hours",
+              "formatter": 0,
+              "numberFormat": {
+                "unit": 26,
+                "options": {
+                  "style": "decimal"
+                }
+              }
+            }
+          ],
+          "labelSettings": [
+            {
+              "columnId": "Computer"
+            },
+            {
+              "columnId": "total_available_minutes"
+            },
+            {
+              "columnId": "total_number_of_buckets"
+            },
+            {
+              "columnId": "availability_rate",
+              "label": "Availability Rate"
+            },
+            {
+              "columnId": "total_available_hours",
+              "label": "Total Available Hours"
+            }
+          ]
+        },
+        "sortBy": []
+      },
+      "name": "query - 0"
+    }
+  ],
+  "fallbackResourceIds": [
+    "Azure Monitor"
+  ],
+  "$schema": "https://github.com/Microsoft/Application-Insights-Workbooks/blob/master/schema/workbook.json"
+}
