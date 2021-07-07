@@ -3,30 +3,31 @@
 This Azure Cloud Monitor Documentation serves as a guide to create your own workbooks and dashbords to monitor your Azure resources. Some of this templates are adapted from [Panaroma](https://github.com/weixian-zhang/Panorama), [The Ultimate Inventory Dashboard](https://github.com/scautomation/Azure-Inventory-Workbook) and [Azure Public Templates](https://portal.azure.com/#blade/Microsoft_Azure_Monitoring/AzureMonitoringBrowseBlade/workbooks)
 
 ## Contents 
-1. [Set up an agent for your VM](#set-up-an-agent-for-your-vm)
+1. [Set up the log analytics workspace](#Set-up-the-log-analytics-workspace)
 2. [Enable monitoring for your VM](#enable-monitoring-for-your-VM)
 3. [Create Workbooks](#create-workbooks)
 4. [Create DashBoards](#Create-dashBoards)
 
 
-## Set up an agent for your VM
+## Set up the log analytics workspace
 
-Here are some of the prerequisites that you need to check before you start
+Before Azure Monitor can collect logs, ensure that the workspace is connected.
+This can be done in multiple ways, including manually thorugh the Azure portal or through Terraform code.
 
-#### Install the monitor agent extension for your Virtual Machines
-
-#### Install the agent manually through Azure portal
+#### Enable the agent manually through Azure portal
+Navigate to Log Analytics workspace(LAW) and create a worspace or use an existing one. Under workspace data sources, click on virtual machines and connect it to the LAW. 
 <img src="https://user-images.githubusercontent.com/58519490/124719077-565d0a00-df39-11eb-8882-be2520a01022.png" width="700">
 
-or
+If you have enabled the agent manually in the previous step, skip to the [next step](#enable-monitoring-for-your-VM).
 
 #### Install the agent through terraform
 
 ## Enable monitoring for your VM
-![image](https://user-images.githubusercontent.com/54704393/124569677-bb046000-de78-11eb-8fef-a29bf7cb8930.png)
+Navigate to Azure Monitor, under Insights, Virtual Machines and enable the virtual machines you want to monitor.
+<img src="https://user-images.githubusercontent.com/54704393/124569677-bb046000-de78-11eb-8fef-a29bf7cb8930.png" width ="700">
 
-#### Ensure your VMs are sending heartbeat to Azure log
-![image](https://user-images.githubusercontent.com/54704393/124570134-2cdca980-de79-11eb-8f78-446637880881.png)
+Ensure your VMs are sending heartbeat to Azure log by running a query under logs.
+<img src="https://user-images.githubusercontent.com/54704393/124570134-2cdca980-de79-11eb-8f78-446637880881.png" width="700">
 
 <!-- ### 2. Change the workbook template's subscription id to your own.
 ![image](https://user-images.githubusercontent.com/54704393/124571175-23a00c80-de7a-11eb-880b-e1913187c699.png)
