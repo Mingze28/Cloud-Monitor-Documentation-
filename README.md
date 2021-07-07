@@ -13,14 +13,16 @@ This Azure Cloud Monitor Documentation serves as a guide to create your own work
 
 Here are some of the prerequisites that you need to check before you start
 
-### 1. Install the monitor agent extension for your Virtual Machines
+#### Install the monitor agent extension for your Virtual Machines
 
 #### Install the agent manually through Azure portal
 <img src="https://user-images.githubusercontent.com/58519490/124719077-565d0a00-df39-11eb-8882-be2520a01022.png" width="700">
 
+or
+
 #### Install the agent through terraform
 
-### 2. Enable monitoring for your VM
+## Enable monitoring for your VM
 ![image](https://user-images.githubusercontent.com/54704393/124569677-bb046000-de78-11eb-8fef-a29bf7cb8930.png)
 
 #### Ensure your VMs are sending heartbeat to Azure log
@@ -31,7 +33,7 @@ Here are some of the prerequisites that you need to check before you start
 You will need to change the template's subscription to your own one. Next, we will show you how you can copy the template 
 to make your own monitor workbook -->
 
-### 3. Create Workbooks
+## Create Workbooks
 - Copy the workbook file and paste it to Azure workbook. Make sure your file is in json format. You can find some workbook templates through this link: https://github.com/weixian-zhang/Panorama/tree/master/Workbooks
 ![image](https://user-images.githubusercontent.com/54704393/124572186-091a6300-de7b-11eb-9878-c3226b33b0cf.png)
 
@@ -46,7 +48,7 @@ The filters can help you focus on specific area you are interested in.
   - Change your workbook query settings to your own parameters
   ![image](https://user-images.githubusercontent.com/54704393/124579938-31f22680-de82-11eb-8135-d96698cb15e5.png)
  
-### 4. Create dashboards
+## Create dashboards
 
 
 
