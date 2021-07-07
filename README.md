@@ -25,10 +25,10 @@ Here are some of the prerequisites that you need to check before you start
 #### Ensure your VMs are sending heartbeat to Azure log
 ![image](https://user-images.githubusercontent.com/54704393/124570134-2cdca980-de79-11eb-8f78-446637880881.png)
 
-### 2. Change the workbook template's subscription id to your own.
+<!-- ### 2. Change the workbook template's subscription id to your own.
 ![image](https://user-images.githubusercontent.com/54704393/124571175-23a00c80-de7a-11eb-880b-e1913187c699.png)
 You will need to change the template's subscription to your own one. Next, we will show you how you can copy the template 
-to make your own monitor workbook
+to make your own monitor workbook -->
 
 ## Create workbook through Gallery Template
 1. Copy the workbook file and paste it to Azure workbook. Make sure your file is in json format. You can find some workbook templates through this link: https://github.com/weixian-zhang/Panorama/tree/master/Workbooks
