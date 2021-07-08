@@ -41,7 +41,7 @@ to make your own monitor workbook -->
 
 - Add additional filters
 
-Filters can help you focus on specific areas. 
+Filters can help you focus on specific areas. To add filters for subscriptions:
   1. Add parameters for your workbook
   <img src ="https://user-images.githubusercontent.com/54704393/124579000-51d51a80-de81-11eb-97ad-e2572a961e38.png" width="500">
 
