@@ -37,19 +37,19 @@ to make your own monitor workbook -->
 
 ## Create Workbooks
 - Copy the workbook file and paste it to Azure workbook. Make sure your file is in json format. You can find some workbook templates through this link: https://github.com/weixian-zhang/Panorama/tree/master/Workbooks
-![image](https://user-images.githubusercontent.com/54704393/124572186-091a6300-de7b-11eb-9878-c3226b33b0cf.png)
+<img src="https://user-images.githubusercontent.com/54704393/124572186-091a6300-de7b-11eb-9878-c3226b33b0cf.png" width="700">
 
 - Add additional filters
 
 Filters can help you focus on specific areas. To add filters for subscriptions:
   1. Add parameters for your workbook
-  <img src ="https://user-images.githubusercontent.com/54704393/124579000-51d51a80-de81-11eb-97ad-e2572a961e38.png" width="500">
+  <img src ="https://user-images.githubusercontent.com/54704393/124579000-51d51a80-de81-11eb-97ad-e2572a961e38.png" width="700">
 
   2. Add a new subscription selection field to help you filter out unneeded subscription 
-  ![image](https://user-images.githubusercontent.com/54704393/124579227-8052f580-de81-11eb-9311-1e57f1dfae99.png)
+  <img src="https://user-images.githubusercontent.com/54704393/124579227-8052f580-de81-11eb-9311-1e57f1dfae99.png" width="700">
   
   3. Change your workbook query settings to your own parameters
-  ![image](https://user-images.githubusercontent.com/54704393/124579938-31f22680-de82-11eb-8135-d96698cb15e5.png)
+  <img src="https://user-images.githubusercontent.com/54704393/124579938-31f22680-de82-11eb-8135-d96698cb15e5.png" width="700">
  
 ## Create dashboards
 
