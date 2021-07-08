@@ -27,7 +27,7 @@ If you have enabled the agent manually in the previous step, skip to the [next s
 Navigate to Azure Monitor, under Insights, Virtual Machines and enable the virtual machines you want to monitor.
 <img src="https://user-images.githubusercontent.com/54704393/124569677-bb046000-de78-11eb-8fef-a29bf7cb8930.png" width ="700">
 
-Ensure your VMs are connected properly by using running a heartbeats query under Azure logs.
+Ensure your VMs are connected properly by running a heartbeats query under Azure logs.
 <img src="https://user-images.githubusercontent.com/54704393/124570134-2cdca980-de79-11eb-8f78-446637880881.png" width="700">
 
 <!-- ### 2. Change the workbook template's subscription id to your own.
