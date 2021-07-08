@@ -22,7 +22,7 @@ Navigate to LAW and create a worspace or use an existing one. Under workspace da
 If you have enabled the agent manually in the previous step, skip to the [next step](#enable-monitoring-for-your-VM).
 
 #### Install the agent through terraform
-
+<img src="https://user-images.githubusercontent.com/54704393/124894949-b07bcf00-e00e-11eb-945e-88f6eb095ae6.png" width="600">
 ## Enable monitoring for your VM
 Navigate to Azure Monitor, under Insights, Virtual Machines and enable the virtual machines you want to monitor.
 <img src="https://user-images.githubusercontent.com/54704393/124569677-bb046000-de78-11eb-8fef-a29bf7cb8930.png" width ="700">
