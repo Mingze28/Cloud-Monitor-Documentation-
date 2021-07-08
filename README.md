@@ -56,9 +56,9 @@ Filters can help you focus on specific areas. To add filters for subscriptions:
 - Download the dashboard in json format on to your computer
 - Under New dashboard, Upload new dashboard
   <img src="https://user-images.githubusercontent.com/58519490/124855222-3d0c9a00-dfdb-11eb-9d0e-7eb6e9ed09fe.png" width ="700">
-- You can pin your log query result or your metrics query result to your dashboard.
+- Dashboards can also be created by pinning your log/metric query result or workbooks to your dashboard.
   <img src ="https://user-images.githubusercontent.com/54704393/124864404-6af9da80-dfeb-11eb-99ba-5d37b5b97322.png" width="700">
-- You are allowed to move and resize your tiles in your dashboard
+- Tiles can be resized or moved in the dashboard
   <img src ="https://user-images.githubusercontent.com/54704393/124864734-02f7c400-dfec-11eb-99d8-930d9825277b.png" width="700">
 
 
