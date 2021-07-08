@@ -39,7 +39,7 @@ to make your own monitor workbook -->
 - Copy the workbook file and paste it to Azure workbook. Make sure your file is in json format. You can find some workbook templates under [Panoroma](https://github.com/weixian-zhang/Panorama/tree/master/Workbooks), [The Ultimate Inventory Dashboard](https://github.com/scautomation/Azure-Inventory-Workbook) and [Azure Public Templates](https://portal.azure.com/#blade/Microsoft_Azure_Monitoring/AzureMonitoringBrowseBlade/workbooks).
 <img src="https://user-images.githubusercontent.com/54704393/124572186-091a6300-de7b-11eb-9878-c3226b33b0cf.png" width="700">
 
-- Add additional filters
+- Adding additional filters
 
 Filters can help you focus on specific areas. To add filters for subscriptions:
   1. Add parameters for your workbook
@@ -53,10 +53,7 @@ Filters can help you focus on specific areas. To add filters for subscriptions:
  
 ## Create dashboards
 
-- Download the dashboard in json format on to your computer
-- Under New dashboard, Upload new dashboard
-  <img src="https://user-images.githubusercontent.com/58519490/124855222-3d0c9a00-dfdb-11eb-9d0e-7eb6e9ed09fe.png" width ="700">
-- Dashboards can also be created by pinning your log/metric query result or workbooks to your dashboard.
+- Dashboards can be created by pinning your log/metric query result or workbooks to your dashboard.
   <img src ="https://user-images.githubusercontent.com/54704393/124864404-6af9da80-dfeb-11eb-99ba-5d37b5b97322.png" width="700">
 - Tiles can be resized or moved in the dashboard
   <img src ="https://user-images.githubusercontent.com/54704393/124864734-02f7c400-dfec-11eb-99d8-930d9825277b.png" width="700">
