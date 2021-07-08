@@ -53,7 +53,10 @@ Filters can help you focus on specific areas.
  
 ## Create dashboards
 
-- Download the dashboard in json format
+- Download the dashboard in json format on to your computer
+- Under New dashboard, Upload new dashboard 
+- ![image](https://user-images.githubusercontent.com/58519490/124855222-3d0c9a00-dfdb-11eb-9d0e-7eb6e9ed09fe.png)
+
 
 
 
