@@ -57,6 +57,11 @@ Filters can help you focus on specific areas.
 - Under New dashboard, Upload new dashboard 
 - ![image](https://user-images.githubusercontent.com/58519490/124855222-3d0c9a00-dfdb-11eb-9d0e-7eb6e9ed09fe.png)
 
+- You can also pin your log query result or your metrics query result to your dashboard.
+
+- <img src ="https://user-images.githubusercontent.com/54704393/124864404-6af9da80-dfeb-11eb-99ba-5d37b5b97322.png" width="900">
+
+- 
 
 
 
