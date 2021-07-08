@@ -11,11 +11,12 @@ This Azure Cloud Monitor Documentation serves as a guide to create your own work
 
 ## Set up the log analytics workspace
 
-Before Azure Monitor can collect logs, ensure that the workspace is connected.
+Before Azure Monitor can collect logs, ensure that the VM is connected to a log analytics workspace (LAW) is connected.
 This can be done in multiple ways, including manually thorugh the Azure portal or through Terraform code.
 
 #### Enable the agent manually through Azure portal
-Navigate to Log Analytics workspace(LAW) and create a worspace or use an existing one. Under workspace data sources, click on virtual machines and connect it to the LAW. 
+Navigate to LAW and create a worspace or use an existing one. Under workspace data sources, click on virtual machines and connect it to the LAW. 
+
 <img src="https://user-images.githubusercontent.com/58519490/124719077-565d0a00-df39-11eb-8882-be2520a01022.png" width="700">
 
 If you have enabled the agent manually in the previous step, skip to the [next step](#enable-monitoring-for-your-VM).
@@ -26,7 +27,7 @@ If you have enabled the agent manually in the previous step, skip to the [next s
 Navigate to Azure Monitor, under Insights, Virtual Machines and enable the virtual machines you want to monitor.
 <img src="https://user-images.githubusercontent.com/54704393/124569677-bb046000-de78-11eb-8fef-a29bf7cb8930.png" width ="700">
 
-Ensure your VMs are sending heartbeat to Azure log by running a query under logs.
+Ensure your VMs are connected properly by running a heartbeats query under Azure logs.
 <img src="https://user-images.githubusercontent.com/54704393/124570134-2cdca980-de79-11eb-8f78-446637880881.png" width="700">
 
 <!-- ### 2. Change the workbook template's subscription id to your own.
