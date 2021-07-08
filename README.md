@@ -36,7 +36,7 @@ You will need to change the template's subscription to your own one. Next, we wi
 to make your own monitor workbook -->
 
 ## Create Workbooks
-- Copy the workbook file and paste it to Azure workbook. Make sure your file is in json format. You can find some workbook templates under [Panoroma](https://github.com/weixian-zhang/Panorama/tree/master/Workbooks) [The Ultimate Inventory Dashboard](https://github.com/scautomation/Azure-Inventory-Workbook) and [Azure Public Templates](https://portal.azure.com/#blade/Microsoft_Azure_Monitoring/AzureMonitoringBrowseBlade/workbooks).
+- Copy the workbook file and paste it to Azure workbook. Make sure your file is in json format. You can find some workbook templates under [Panoroma](https://github.com/weixian-zhang/Panorama/tree/master/Workbooks), [The Ultimate Inventory Dashboard](https://github.com/scautomation/Azure-Inventory-Workbook) and [Azure Public Templates](https://portal.azure.com/#blade/Microsoft_Azure_Monitoring/AzureMonitoringBrowseBlade/workbooks).
 <img src="https://user-images.githubusercontent.com/54704393/124572186-091a6300-de7b-11eb-9878-c3226b33b0cf.png" width="700">
 
 - Add additional filters
