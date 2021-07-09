@@ -21,7 +21,8 @@ Navigate to LAW and create a worspace or use an existing one. Under workspace da
 
 If you have enabled the agent manually in the previous step, skip to the [next step](#enable-monitoring-for-your-VM).
 
-#### Install the agent through terraform (Check the terraform code in folder)
+#### Install the agent through terraform 
+Refer to the file [here](https://github.com/Mingze28/Cloud-Monitor-Documentation-/blob/master/VM%20infra%20with%20Agent/main.tf) for the infrastructure as code for the virtual machine and agent.
 <img src="https://user-images.githubusercontent.com/54704393/124894949-b07bcf00-e00e-11eb-945e-88f6eb095ae6.png" width="600">
 
 ## Enable monitoring for your VM
